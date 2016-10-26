@@ -4,7 +4,7 @@
 <div class="container-full">
 
     <header style="
-
+    position: relative;               
     height: calc(100vh - 100px);
     background-image: url(images/photo-main.jpeg);
     background-size: cover;
@@ -38,7 +38,7 @@
     </div>
         
     <div class="hero-content-nav">
-        <a href="#items-title"><img src="images/arrows.png" alt="scroll-arrow"></a>
+        <a href="#about"><img src="images/arrows.png" alt="scroll-arrow"></a>
         
     </div>
         
@@ -55,46 +55,71 @@
 
     <p>I am a front-end developer, graduate of Information Systems at The University of Canterbury. I have 1 years commercial experience working with clients from around New Zealand, providing responsive front-end development and WordPress Solutions.</p>
     
-</section>
-
-<hr>
-    
-<section id="attr" class="vspacing-pd-xlg">
     
   
     
+</section>
+
+</div>
+    
+<section id="attr" class="vspacing-pd-xlg">
+    
+    <div class="dx-container">
+    
+        <div class="attr-header">
+    
+  <h2>
+   It's the little things that count
+  </h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."</p>
+        </div>
+    
     <div class="flex-grid-thirds">
     
-        <div class="col">
-            <img src="images/responsive-marketing.png">
-            <h3 class="lead">Responsive Design</h3>
-            <hr>
-            <p>Designed and built to fit mutiple devices of different screen sizes</p>
+        <div class="col ">
+            
+            <div class="card">
+                
+                <div class="card-content">
+                <img src="images/responsive-marketing.png">
+                <h3 class="lead">Responsive Design</h3>
+                <hr>
+                <p>Designed and built to fit mutiple devices of different screen sizes</p>
+                </div>
+            </div>
         </div>
         <div class="col">
-            <img src="images/study-light.png">
-            <h3 class="lead">Carefully Coded</h3>
-            <hr>
-            <p>Coded with care, clean, quality code is important for ongoing maintenance of any website </p>
+            <div class="card">
+                <div class="card-content">
+                <img src="images/study-light.png">
+                <h3 class="lead">Carefully Coded</h3>
+                <hr>
+                <p>Coded with care, clean, quality code is important for ongoing maintenance of any website </p>
+                </div>
+            </div>
         </div>
         <div class="col">
-            <img src="images/calendar-event.png">
-            <h3 class="lead">Structured Workflow</h3>
-            <hr>
-            <p>From concept, to design and development, a structured workflow is used to ensure consistency and quality</p>
+            <div class="card">
+                <div class="card-content">
+                <img src="images/calendar-event.png">
+                <h3 class="lead">Structured Workflow</h3>
+                <hr>
+                <p>Structured workflow is used to ensure consistency and quality</p>
+                </div>
+            </div>
         </div>
+    </div>
     </div>
     
 </section>
 
   
 
-</div>
 
 <section id="items" class="vspacing-pd-xlg">
 
     <div id="items-content">
-          <h2 id="items-title" class="">- Projects -</h2>
+          <h2 class="items-title" id="scroll-point">What i've been working on</h2>
    
         <div class="flex-grid-2 item"> 
             <div class="col fade">
@@ -164,7 +189,7 @@
     <div class="contactform">
         
         <div class="cf-image">
-            <img src="images/me.jpg" class="iamges/img-circle" alt="me-image">
+            <img src="images/me.jpg" class="img-circle" alt="me-image">
         </div>
         
         <div class="cf-content">
